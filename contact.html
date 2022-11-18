@@ -74,16 +74,17 @@
 
                          <form action="#" method="post">
                               <div class="col-md-6 col-sm-6">
-                                   <input type="text" class="form-control" placeholder="Name" id="name">
+                                   <input type="text" class="form-control" placeholder="Name" name="name" id="name">
                               </div>
                               <div class="col-md-6 col-sm-6">
-                                   <input type="email" class="form-control" placeholder="Email" id="mail">
+                                   <input type="email" class="form-control" placeholder="Email" name="mail" id="mail">
                               </div>
                               <div class="col-md-6 col-sm-6">
-                                   <input type="telephone" class="form-control" placeholder="Phone Number" id="tel">
+                                   <input type="telephone" class="form-control" placeholder="Phone Number" name="tel"
+                                        id="tel">
                               </div>
                               <div class="col-md-6 col-sm-6">
-                                   <select class="form-control" id="topic">
+                                   <select class="form-control" name="topic" id="topic">
                                         <option>Topic : </option>
                                         <option>Project</option>
                                         <option>Discussion</option>
@@ -91,11 +92,11 @@
                                    </select>
                               </div>
                               <div class="col-md-12 col-sm-12">
-                                   <textarea class="form-control" rows="8" placeholder="Details" id="text"></textarea>
+                                   <textarea class="form-control" rows="8" placeholder="Details" name="text"
+                                        id="text"></textarea>
                               </div>
                               <div class="col-md-3 col-sm-4">
                                    <input type="submit" class="form-control" value="Send Message">
-                                   <!-- onclick="test()">-->
                               </div>
                          </form>
                     </div>

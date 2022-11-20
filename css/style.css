@@ -28,7 +28,7 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #383838;
+  background-color: #2a2828;
 }
 
 table {

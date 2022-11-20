@@ -128,7 +128,8 @@
     <script src="../js/custom.js"></script>
     <script>
         httpGetAsync("/lol/summoner?discordid=297409548703105035", response => {
-            let data = JSON.parse(response); // Let supposed the data is in this format [{ id: 1 }, { id: 2 }, { id: 3 }]
+            console.log(response);
+            let data = JSON.parse(response);
             let tr = '';
             data.forEach(function (value) {
                 tr += `<tr><td>${data.puuid}</td><td>${data.username}</td><td>${data.accountid}</td><td>${data.id}</td><td>${data.tier_solo}</td><td>${data.rank_solo}</td></tr>`;

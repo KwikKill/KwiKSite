@@ -82,19 +82,20 @@
             <caption>Tableau stats lol</caption>
             <thead>
                 <tr>
-                    <th scope="col">Puuid</th>
                     <th scope="col">username</th>
-                    <th scope="col">accountid</th>
-                    <th scope="col">id</th>
                     <th scope="col">tier_solo</th>
                     <th scope="col">rank_solo</th>
+                    <th scope="col">lp_solo</th>
+                    <th scope="col">rank_flex</th>
+                    <th scope="col">tier_flex</th>
+                    <th scope="col">lp_flex</th>
                 </tr>
             </thead>
             <tbody>
             </tbody>
             <tfoot>
                 <tr>
-                    <th scope="row" colspan="2">Nombre de compte :</th>
+                    <th scope="row" colspan="2">Accounts number :</th>
                     <td colspan="2">3</td>
                 </tr>
             </tfoot>
@@ -131,7 +132,7 @@
             let data = JSON.parse(response);
             let tr = '';
             data.forEach(function (value) {
-                tr += `<tr><td>${value.puuid}</td><td>${value.username}</td><td>${value.accountid}</td><td>${value.id}</td><td>${value.tier_solo}</td><td>${value.rank_solo}</td></tr>`;
+                tr += `<tr><td>${value.username}</td><td>${value.tier_solo}</td><td>${value.rank_solo}</td><td>${value.lp_solo}</td><td>${value.rank_flex}</td><td>${value.tier_flex}</td><td>${value.lp_flex}</td></tr>`;
             });
             document.querySelector('#table tbody').innerHTML = tr;
         });

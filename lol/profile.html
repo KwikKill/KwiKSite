@@ -131,8 +131,7 @@
             let data = JSON.parse(response);
             let tr = '';
             data.forEach(function (value) {
-                console.log(value);
-                tr += `<tr><td>${data.puuid}</td><td>${data.username}</td><td>${data.accountid}</td><td>${data.id}</td><td>${data.tier_solo}</td><td>${data.rank_solo}</td></tr>`;
+                tr += `<tr><td>${value.puuid}</td><td>${value.username}</td><td>${value.accountid}</td><td>${value.id}</td><td>${value.tier_solo}</td><td>${value.rank_solo}</td></tr>`;
             });
             document.querySelector('#table tbody').innerHTML = tr;
         });

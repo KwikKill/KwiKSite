@@ -35,6 +35,7 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   border: 3px solid rgb(59, 59, 59);
+  align-items: center;
 }
 
 th,

@@ -13,7 +13,9 @@ body {
 
 .stats {
   background: #20232b;
-  padding: 50px 0;
+  padding: 15px 20px 10px 20px;
+  border-radius: 4px;
+  border: none;
 }
 
 /*---------------------------------------

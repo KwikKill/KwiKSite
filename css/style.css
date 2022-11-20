@@ -23,6 +23,14 @@ h6 {
   letter-spacing: 0.5px;
 }
 
+tbody tr:nth-child(odd) {
+  background-color: #0c0c0c;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #383838;
+}
+
 table {
   table-layout: fixed;
   border-collapse: collapse;

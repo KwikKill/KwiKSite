@@ -128,7 +128,7 @@
     <script src="../js/custom.js"></script>
     <script>
         httpGetAsync("/lol/summoner?discordid=297409548703105035", response => {
-            console.log(response)
+            console.log(response[0])
             let data = response; // Let supposed the data is in this format [{ id: 1 }, { id: 2 }, { id: 3 }]
             let tr = '';
             data.forEach(function (value) {

@@ -11,40 +11,6 @@ body {
     Boxed Layout
 -----------------------------------------*/
 
-
-.box {
-  background-color: #3A4556;
-  margin-bottom: 20px;
-  border: 1px solid #2D3848;
-  border: none;
-  border-radius: 4px;
-}
-
-.box.box-padding-10 {
-  padding: 15px 20px 10px 20px;
-}
-
-.medium-13 {
-  width: 54.1666666667%;
-}
-
-.tabsContainer {
-  border-radius: 4px;
-  background-color: #3A4556;
-  padding: 0px 10px;
-}
-
-.medium-11 {
-  width: 45.8333333333%;
-}
-
-.tabsContainer .tabs {
-  font-weight: 500;
-  background-color: transparent;
-  padding: 0;
-  border-bottom: 1px solid #2D3848;
-}
-
 /*---------------------------------------
     Typorgraphy
 -----------------------------------------*/

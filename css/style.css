@@ -49,6 +49,12 @@ tbody tr:nth-child(even) {
   background-color: #2a2828;
 }
 
+.summoner-rankings .best-league .mainRankingDescriptionText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
 table {
   table-layout: fixed;
   border-collapse: collapse;

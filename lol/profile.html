@@ -147,8 +147,6 @@
         </div>
     </section>
 
-    <hr>
-
     <!-- Table Section -->
 
     <div class="scrollmenu" id="table">
@@ -204,6 +202,8 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/custom.js"></script>
     <script>
+        let x = document.cookie;
+        console.log(x)
         httpGetAsync("/lol/summoner?discordid=297409548703105035", response => {
             let data = JSON.parse(response);
             let tr = '';

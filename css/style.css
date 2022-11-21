@@ -57,6 +57,7 @@ tbody tr:nth-child(even) {
 
 .mainRankingDescriptionText {
   text-align: left;
+  width: 100%;
 }
 
 .summoner-rankings .best-league .mainRankingDescriptionText {

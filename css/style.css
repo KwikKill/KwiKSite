@@ -13,13 +13,14 @@ body {
 
 .stats {
   background: #20232b;
-  padding: 0px 20px 10px 20px;
+  padding: 0px 20px 10px 10px;
   border-radius: 4px;
   border: none;
-  width: 45%;
+  width: fit-content;
   display: inline-block;
   text-align: center;
   margin: 25px;
+  width: 83%;
 }
 
 .sub-stats {
@@ -57,7 +58,6 @@ tbody tr:nth-child(even) {
 
 .mainRankingDescriptionText {
   text-align: left;
-  width: 100%;
 }
 
 .summoner-rankings .best-league .mainRankingDescriptionText {
